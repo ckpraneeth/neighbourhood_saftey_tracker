@@ -1,0 +1,36 @@
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.read-the-docs {
+  color: #888;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Add card transition effects */
+.post-card {
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+}
